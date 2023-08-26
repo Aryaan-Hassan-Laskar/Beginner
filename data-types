@@ -1,0 +1,20 @@
+public class Datatypes{
+    public static void main (String[]args){
+        int a = 54;
+        System.out.println("a="+a);
+        float b=9.66f;
+        System.out.println("b="+b);
+        double c=3.30303300;
+        System.out.println("c="+c);
+        short d=939;
+        System.out.println("d="+d);
+        long e = 209932901;
+        System.out.println("e="+e);
+        boolean f= true;
+        System.out.println("f="+f);
+        char g='G';
+        System.out.println("g="+g);
+        String h= "Hello World";
+        System.out.println("h="+h); 
+    }
+}
