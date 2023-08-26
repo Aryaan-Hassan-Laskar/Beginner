@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Wow{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int a=sc.nextInt();
+        if(a==1){
+            System.out.println("Normal Superstar Puneet Momos");
+        
+        }
+        else if (a==2){
+            System.out.println("WOW Special Pizza");
+        
+        }
+        else if (a==3|| a==4 || a==5){
+            System.out.print("Pepsi / Thumbs up / Water");
+        }
+        else{
+            System.out.println("Invalid order");
+        }
+    }
+    
+}
