@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Three_Subjects_GPA{
+public static void main(String args[]){
+Scanner sc = new Scanner (System.in);
+System.out.println("Enter the marks for Subject 1");
+int a = sc.nextInt();
+System.out.println("Enter the marks for Subject 2");
+int b = sc.nextInt();
+System.out.println("Enter the marks for Subject 3");
+int c = sc.nextInt();
+int d = (a+b+c)/300;
+System.out.println("GPA : " + d);
+}
+}
+
+
+
