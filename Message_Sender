@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class Message{
+    public static void main(String args[]){
+        Scanner sc = new Scanner (System.in);
+        System.out.println("What is your name sir/ma'am");
+        String a = sc.nextLine(); 
+        System.out.println("Hello " + a + ",have a nice day");
+    }
+}
